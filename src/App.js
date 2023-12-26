@@ -1,12 +1,12 @@
 import React from "react";
-import { App as SendbirdApp } from "sendbird-uikit";
 import "./App.css";
+import Chat from './Chat.js'
 
 export default function App() {
   
   return (
     <div className="App">
-          
+        <Chat />
     </div>
   );
 }
