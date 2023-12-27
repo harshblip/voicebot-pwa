@@ -16,7 +16,7 @@ const styles = {
   }
 };
 
-const Container = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,7 @@ const Container = styled.div`
   overflow-y: scroll;
 `
 
-const Voices = styled.div`
+export const Voices = styled.div`
   height: 30rem;
   width: 20rem;
   border-radius: 34px;
