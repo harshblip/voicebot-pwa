@@ -1,3 +1,7 @@
+* {
+  transition: all 0.3s ease-in;
+}
+
 .App {
   height: 100vh;
   text-align: center;
@@ -32,16 +36,56 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    /* Start from the bottom */
+    opacity: 0;
+    /* Start with full transparency */
   }
-  to {
-    transform: rotate(360deg);
+
+  100% {
+    transform: translateY(0);
+    /* End at the original position */
+    opacity: 1;
+    /* End with full opacity */
   }
 }
 
+.audio-player {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  background-color: #a0ecff;
+  border-radius: 1rem;
+  padding: 1%;
+}
 
-.audiorecorderr { 
-  background-color: black;
+.record {
+  margin-left: 10rem;
+}
+
+.chat {
+  height: 30rem;
+  width: 20rem;
+  border-radius: 34px;
+  background: #ffffff;
+  box-shadow: 30px 30px 60px #ededed,
+    -30px -30px 60px #ffffff;
+  position: absolute;
+}
+
+.audio {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  margin-top: 0.8rem;
+  animation: slideUp 0.4s ease-in-out;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
