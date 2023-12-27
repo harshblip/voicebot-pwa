@@ -17,6 +17,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Learn More
 
+Github Link - https://github.com/harshblip/voicebot-pwa/
+
+Live Demonstration and explanation - https://drive.google.com/file/d/1Ovf0NS3V4RratpCGHT0e-IKo9xZgmq0F/view?usp=sharing
+
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
